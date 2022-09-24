@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  min-height: 100vh;
+}
+h5 {
+  font-weight: 600 !important;
+  color: #a296df;
+  font-family: "Poppins", sans-serif !important;
+}
+.line {
+  border-top: 2px solid #a296df;
+  width: 120px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.taskit-logo-part {
+  background-color: #f1e7fc;
+}
+.category {
+  border: 1px solid #a296df;
+  padding: 10px;
+  border-radius: 15px;
+}
+.homee {
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 100px;
+  width: 130px;
+}
+.homee img {
+  margin-left: 35px;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  padding: 15px;
+}
+input[type="checkbox"] {
+  margin-top: 0 auto;
+  margin-bottom: 150px;
+}
+.alarm img {
+  background-color: #a296df;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.Wrapper {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 5px solid #7e64ff;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.text h6 {
+  padding-right: 10px;
+}
+.image img {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.home-one {
+  background: rgba(87, 75, 192, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 13.5047px;
+}
+.home-two {
+  background: rgba(219, 102, 108, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 13.5047px;
+}
+.home-three {
+  background: #e7f3ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 13.5047px;
+}
+.home-four {
+  background: rgba(212, 135, 96, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 13.5047px;
+}
+.home-four img {
+  padding-top: 20px;
+}
+.home-five {
+  background: rgba(219, 102, 108, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 13.5047px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 100px;
+  width: 140px;
+}
+.home-five img {
+  padding-bottom: 20px !important;
+  margin-left: 40px;
+}
+.reminder {
+  border: 1px solid #7e64ff;
+}
+.tt p {
+  font-size: 15px;
+}
